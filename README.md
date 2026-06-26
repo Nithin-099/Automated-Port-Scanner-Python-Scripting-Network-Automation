@@ -44,50 +44,6 @@ The application allows users to specify a target host and a custom port range. O
 
 ---
 
-## Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/MultiThreaded-Port-Scanner.git
-
-Navigate into the project directory:
-
-cd MultiThreaded-Port-Scanner
-
-Run the application:
-
-python port_scanner.py
-
----
-
-## Usage
-
-Example:
-
-Enter your target ip: scanme.nmap.org
-
-Enter the start port: 1
-
-Enter end port: 1000
-
-The scanner will display detected open ports and service information.
-
----
-
-## Sample Output
-
-Port Scan Results:
-
-Port Service Status
-
-22 ssh Open
-
-80 http Open
-
-443 https Open
-
----
-
 ## Future Enhancements
 
 * UDP port scanning
